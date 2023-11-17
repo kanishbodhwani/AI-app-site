@@ -147,18 +147,18 @@ export default function Home() {
       <section id='about' style={inter.style} className={styles.container3}>
           <h3 style={{color: "#fff"}} className={styles.head_text}>About us</h3>
           <p style={{color: "#b8b8b8", textAlign: 'center'}}>
-          If you're interested in the app, please get in touch for a collaborative release 🤝
+          If you&apos;re interested in the app, please get in touch for a collaborative release 🤝
           </p>
           <div className={styles.anonymous_container}>
             <Image className={styles.mobile} src={Main} alt="people" />
             <p className={styles.version_para} style={{color: "#eee"}}>
-            Welcome to Synapse, the app designed to make a business person's life easier! It is your all-in-one solution for seamless business operations. We've combined smart AI technology with the practical needs of the business world to help you communicate effortlessly, automate tasks, and analyze performance.
+            Welcome to Synapse, the app designed to make a business person&apos;s life easier! It is your all-in-one solution for seamless business operations. We&apos;ve combined smart AI technology with the practical needs of the business world to help you communicate effortlessly, automate tasks, and analyze performance.
             <br />
             <br />
-            With cutting-edge features like email automation, user-friendly bots, and customizable goal tracking, we've crafted an app that understands the unique challenges faced by professionals. 
+            With cutting-edge features like email automation, user-friendly bots, and customizable goal tracking, we&apos;ve crafted an app that understands the unique challenges faced by professionals. 
             <br />
             <br />
-            Say goodbye to tedious tasks and hello to increased productivity. Whether you're handling emails, using bots, or setting and achieving goals, Synapse is here to be your go-to tool for success. Stay ahead in the fast-paced business world with Synapse – your partner in innovation and efficiency.
+            Say goodbye to tedious tasks and hello to increased productivity. Whether you&apos;re handling emails, using bots, or setting and achieving goals, Synapse is here to be your go-to tool for success. Stay ahead in the fast-paced business world with Synapse – your partner in innovation and efficiency.
             <br />
             <br />
             Join now to discover how Synapse can revolutionize the way you work and elevate your business to new heights!
