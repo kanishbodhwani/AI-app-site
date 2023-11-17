@@ -37,10 +37,13 @@ export default function Home() {
     window.location.href = "mailto:bodhwanikanish@gmail.com";
   };
 
+  const handleJoinNow = () => {
+    window.location.href = "mailto:bodhwanikanish@gmail.com?subject=Exploring Collaboration Opportunities with Synapse!&body=Dear [Your Name], I hope this email finds you well. My name is [Your Name], and I'm reaching out to express my interest in exploring potential collaboration opportunities with you. \n Thank you for considering this collaboration. I look forward to the opportunity of working together. \n Best regards, \n [Your Name]"
+  }
+
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        {/* <nav className={styles.navigation}> */}
           <a href="#home" style={inter.style} className={styles.link}>
             <IoHome />
             Home
@@ -49,23 +52,22 @@ export default function Home() {
             <IoInformationCircle />
             About
           </a>
-          <a href="#home" style={inter.style} className={styles.app_text}>
-            <Image
-              // className={styles.mobile}
-              src="/images/chip.png"
-              alt="main"
-              width={40}
-              height={40}
-              priority
-            />
-            AI App
-          </a>
+          <div>
+            <a href="#home" style={inter.style} className={styles.app_text}>
+              <Image
+                src="/images/chip.png"
+                alt="main"
+                width={40}
+                height={40}
+                priority
+              />
+              AI App
+            </a>
+          </div>
           <a href='#' onClick={() => handleClick()} style={inter.style} className={styles.link}>
             <IoMail />
             Contact
           </a>
-        {/* </nav> */}
-        <div>
           <a
             style={inter.style}
             href="https://kanishportfolio.netlify.app/"
@@ -75,7 +77,6 @@ export default function Home() {
             <IoPerson />
             Creator
           </a>
-        </div>
       </div>
 
       <div className={styles.center}>
@@ -163,7 +164,7 @@ export default function Home() {
             Join now to discover how Synapse can revolutionize the way you work and elevate your business to new heights!
             <br />
             <br />
-            <button className={styles.joinnow_button}>
+            <button onClick={() => handleJoinNow()} className={styles.joinnow_button}>
               Join Now
             </button>
             </p>
