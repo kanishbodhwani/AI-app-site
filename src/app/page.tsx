@@ -70,7 +70,7 @@ export default function Home() {
           </a>
           <a
             style={inter.style}
-            href="https://kanishportfolio.netlify.app/"
+            href="https://kanishbodhwani.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
